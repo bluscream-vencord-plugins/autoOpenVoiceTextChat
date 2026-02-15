@@ -1,3 +1,10 @@
+export const pluginInfo = {
+    id: "autoOpenVoiceTextChat",
+    name: "Auto Open Voice Text Chat",
+    description: "Auto Open Voice Text Chat",
+    color: "#7289da"
+};
+
 import definePlugin from "@utils/types";
 import { isVoiceChannel } from "./utils/channels";
 import {
@@ -10,14 +17,14 @@ import { settings } from "./settings";
 
 import { Logger } from "@utils/Logger";
 
-const pluginId = "autoOpenVoiceTextChat";
-const pluginName = "Auto Open Voice Text Chat";
-const logger = new Logger(pluginName, "#7289da");
+
+
+const logger = new Logger(pluginInfo.name, pluginInfo.color);
 
 let lastChannelId: string | null = null;
 
 export default definePlugin({
-    name: pluginName,
+    name: "Auto Open Voice Text Chat",
     authors: [
         { name: "Bluscream", id: 1205616252488519723n }
     ],
