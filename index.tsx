@@ -28,13 +28,13 @@ export const pluginInfo = {
 // endregion PluginInfo
 
 // region Variables
-const logger = new Logger(pluginInfo.name, pluginInfo.color);
+const logger = new Logger(pluginInfo.id, pluginInfo.color);
 let lastChannelId: string | null = null;
 // endregion Variables
 
 // region Definition
 export default definePlugin({
-    name: pluginInfo.name,
+    name: pluginInfo.id,
     description: pluginInfo.description,
     authors: pluginInfo.authors,
     settings,
