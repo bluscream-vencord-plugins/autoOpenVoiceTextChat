@@ -1,7 +1,7 @@
 {
     "name": "autoOpenVoiceTextChat",
     "version": "1.0.0",
-    "description": "Automatically opens the text chat of a voice channel when joining it.",
+    "description": "Automatically opens the text chat of a voice channel when joining it",
     "main": "index.tsx",
     "author": {
         "name": "Bluscream",
