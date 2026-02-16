@@ -2,12 +2,6 @@ import { definePluginSettings } from "@api/Settings";
 import { OptionType } from "@utils/types";
 
 export const settings = definePluginSettings({
-    enabled: {
-        type: OptionType.BOOLEAN,
-        description: "Enable automatically opening voice text chat",
-        default: true,
-        restartNeeded: false,
-    },
     delay: {
         type: OptionType.SLIDER,
         description: "Delay before opening text chat in milliseconds",

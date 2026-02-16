@@ -46,7 +46,6 @@ export default definePlugin({
 
     flux: {
         VOICE_STATE_UPDATES({ voiceStates }) {
-            if (!settings.store.enabled) return;
             const me = UserStore.getCurrentUser();
             if (!me) return;
 
