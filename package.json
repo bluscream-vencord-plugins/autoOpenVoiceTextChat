@@ -1,11 +1,15 @@
 {
     "name": "autoOpenVoiceTextChat",
     "version": "1.0.0",
-    "description": "Auto Open Voice Text Chat",
+    "description": "Automatically opens the text chat of a voice channel when joining it.",
     "main": "index.tsx",
     "author": {
         "name": "Bluscream",
         "url": "https://github.com/Bluscream"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bluscream-vencord-plugins/autoOpenVoiceTextChat.git"
     },
     "license": "GPL-3.0-or-later",
     "vencord": {

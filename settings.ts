@@ -6,6 +6,7 @@ export const settings = definePluginSettings({
         type: OptionType.BOOLEAN,
         description: "Enable automatically opening voice text chat",
         default: true,
+        restartNeeded: false,
     },
     delay: {
         type: OptionType.SLIDER,
@@ -14,5 +15,6 @@ export const settings = definePluginSettings({
         min: 0,
         max: 5000,
         markers: [0, 250, 500, 1000, 2000, 5000],
+        restartNeeded: false,
     },
 });
