@@ -14,18 +14,8 @@ import { settings } from "./settings";
 import { isVoiceChannel } from "./utils/channels";
 // endregion Imports
 
-// region PluginInfo
-export const pluginInfo = {
-    id: "autoOpenVoiceTextChat",
-    name: "AutoOpenVoiceTextChat",
-    description: "Automatically opens the text chat of a voice channel when joining it",
-    color: "#7289da",
-    authors: [
-        { name: "Bluscream", id: 1205616252488519723n },
-        { name: "Assistant", id: 0n }
-    ],
-};
-// endregion PluginInfo
+import { pluginInfo } from "./info";
+export { pluginInfo };
 
 // region Variables
 const logger = new Logger(pluginInfo.id, pluginInfo.color);
